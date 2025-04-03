@@ -1,0 +1,31 @@
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #1e683f;
+  color: #fff;
+} .cabecalho {
+  background-color: #43d6c3;
+  text-align: center;
+} .titulo {
+  color: #d5f03c;
+  font-weight: bold;
+  font-size: 32px;
+} .subtitulo {
+  color: #3f7c1c;
+} .conteudo {
+  background-color: #696969;
+  color: #006400; }
+
+/* As próximas classes são referentes aos exercícios extras (como o desafio, desafio plus 1 e desafio plus 2). */
+.conteudo > p {
+  color: #e4005a;
+  font-size: 42px;
+} .conteudo > p:nth-of-type(3) {
+  color: purple;
+  vertical-align: sub;
+} .cabecalho > p:nth-of-type(3) {
+  color: purple;
+  vertical-align: sub;
+} @media (max-width: 480px){
+    .container{
+        background-color: #add8e6; } }

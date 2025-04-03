@@ -2,63 +2,46 @@ body {
     margin: 0;
     background-color: #f8f8f8;
     color: #212427
-}
-
-h1 {
+} h1 {
     width: fit-content;
-    margin: auto;
-}
+    margin: auto; }
 
 .caixa {
     border-radius: 5px;
-}
-
-.pai {
+} .pai {
     width: 80%;
     height: 350px;
     margin: auto;
     background-color: antiquewhite;
     border: solid 2px #212427;
-
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: row;
-}
-
-.filho {
+} .filho {
     width: 80px;
     height: 80px;
     border-radius: 50px;
     text-align: center;
-}
-
-.cor1 {
+} .cor1 {
     background-color: #ED145B;
-}
-
-.cor2 {
+    align-self: flex-start;
+} .cor2 {
     background-color: #63B1BC;
-}
-
-.cor3 {
+    align-self: flex-end; 
+} .cor3 {
     background-color: #EFB661;
-}
-
-.instrucoes {
+    align-self: center;
+} .instrucoes {
     width: 80%;
     margin: auto;
     text-align: left;
-}
-
-.footer {
+} .footer {
     background-color: antiquewhite;
     height: 130px;
     margin-top: 50px;
     padding-top: 20px;
-    text-align: center;
-}
+    text-align: center; }
 
 img {
-    width: 20%;
-}
+    width: 20%; }
